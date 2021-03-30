@@ -1,0 +1,22 @@
+{
+  "estados": [
+ {
+      "sigla": "AB",
+      "nome": "ABERTURA INDEVIDA",
+      "cidades": [
+        "1 - CLIENTE NÃO SOLICITOU",
+        "3 - ENDEREÇO DIVERGENTE",
+        "4 - CLIENTE SOLICITOU CANCELAMENTO CHAMADO",
+        "5 - MAIS DE UM REPARO PARA MESMO CLIENTE",
+        "6 - PEDIU MUDANÇA DE ENDEREÇO",
+        "7 - PEDIU SERVIÇO PARA OUTRO PRODUTO",
+        "8 - CLIENTE SOLICITOU CANCELAMENTO DO SERVIÇO",
+        "9 - DUVIDA COMERCIAL SOBRE PRODUTOS/SERVIÇOS",
+        "A - BD ABERTO NO TERMINAL ERRADO",
+        "B - RECLAMA QUE CERTOS HORÁRIOS RECEBE LIGAÇÃO",
+        "C - FALTA DE PAGAMENTO",
+        "D -MUDANÇA DE PONTO INTERNO"
+      ]
+    }
+  ]
+}
