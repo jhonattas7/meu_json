@@ -3,7 +3,7 @@
  {
       "sigla": "AB",
       "nome": "ABERTURA INDEVIDA",
-      "cidades": [
+      "combo2opcoes": [
         "1 - CLIENTE NÃO SOLICITOU",
         "3 - ENDEREÇO DIVERGENTE",
         "4 - CLIENTE SOLICITOU CANCELAMENTO CHAMADO",
