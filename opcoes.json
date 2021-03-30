@@ -28,6 +28,40 @@
         "0 - ENCERRADO SEM REPARO"
       ]
     },
+{
+      "sigla": "FC",
+      "nome": "FIBRA CLIENTE",
+      "combo2opcoes": [
+        "0 - CONECTOR CTOP / CDOI / CDOE",
+        "1 - CONECTOR ÓPTICO",
+        "2 - DROP",
+        "3 - PTO",
+        "4 - CORDÃO MONOFIBRA"
+      ],
+        "combo3opcoes": [
+        "0 - DANIFICADO",
+        "1 - RECONECTADO",
+        "2 - ROMPIDO NA EXTERNA",
+        "3 - ROMPIDO NA INTERNA",
+        "4 - VANDALISMO",
+        "5 - FACILIDADE SENDO UTILIZADA POR OUTRO CLIENTE",
+        "6 - LIMPEZA CONECTOR",
+        "7 - AUSENTE"
+      ],
+        "combo4opcoes": [
+        "0 - NÃO IDENTIFICADO",
+        "1 - FALHA DO SERVIÇO ANTERIOR",
+        "2 - CARGA ALTA",
+        "4 - QUEDA DE ARVORE/TROCA DE POSTE",
+        "5 - VANDALISMO"
+      ],
+         "combo5opcoes": [
+        "0 - RECONECTADO",
+        "1 - INSTALADO O COMPONENTE",
+        "2- SUBSTITUÍDO O COMPONENTE",
+        "3- RECUPERADO O COMPONENTE OU SUBSTITUÍDO PARTE DELE"
+      ]
+    },
     {
       "sigla": "AC",
       "nome": "Acre",
