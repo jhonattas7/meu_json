@@ -16,6 +16,16 @@
         "B - RECLAMA QUE CERTOS HORÁRIOS RECEBE LIGAÇÃO",
         "C - FALTA DE PAGAMENTO",
         "D -MUDANÇA DE PONTO INTERNO"
+      ],
+        "combo3opcoes": [
+        "0 - OUTROS",
+        "1 - DESPACHO INDEVIDO"
+      ],
+        "combo4opcoes": [
+        "1 - ATENDIMENTO/ESSE"
+      ],
+         "combo5opcoes": [
+        "0 - ENCERRADO SEM REPARO"
       ]
     }
   ]
