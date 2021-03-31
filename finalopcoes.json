@@ -63,8 +63,8 @@
       ]
     },
 {
-      "sigla": "AB",
-      "nome": "ABERTURA INDEVIDA",
+      "sigla": "RE",
+      "nome": "REDE EXTERNA",
       "combo2opcoes": [
         "1 - CLIENTE NÃO SOLICITOU",
         "3 - ENDEREÇO DIVERGENTE",
@@ -91,8 +91,8 @@
       ]
     },
 {
-      "sigla": "FC",
-      "nome": "FIBRA CLIENTE",
+      "sigla": "RC",
+      "nome": "REDE COAXIAL",
       "combo2opcoes": [
         "0 - CONECTOR CTOP / CDOI / CDOE",
         "1 - CONECTOR ÓPTICO",
@@ -125,8 +125,8 @@
       ]
     },
 {
-      "sigla": "AB",
-      "nome": "ABERTURA INDEVIDA",
+      "sigla": "DI",
+      "nome": "DISPOSITIVO",
       "combo2opcoes": [
         "1 - CLIENTE NÃO SOLICITOU",
         "3 - ENDEREÇO DIVERGENTE",
@@ -153,8 +153,8 @@
       ]
     },
 {
-      "sigla": "FC",
-      "nome": "FIBRA CLIENTE",
+      "sigla": "SI",
+      "nome": "SISTEMA",
       "combo2opcoes": [
         "0 - CONECTOR CTOP / CDOI / CDOE",
         "1 - CONECTOR ÓPTICO",
@@ -187,8 +187,8 @@
       ]
     },
 {
-      "sigla": "AB",
-      "nome": "ABERTURA INDEVIDA",
+      "sigla": "EO",
+      "nome": "ENCONTRADO OK",
       "combo2opcoes": [
         "1 - CLIENTE NÃO SOLICITOU",
         "3 - ENDEREÇO DIVERGENTE",
@@ -215,8 +215,8 @@
       ]
     },
 {
-      "sigla": "FC",
-      "nome": "FIBRA CLIENTE",
+      "sigla": "CP",
+      "nome": "CLIENTE PERIFÉRICOS DO CLIENTE",
       "combo2opcoes": [
         "0 - CONECTOR CTOP / CDOI / CDOE",
         "1 - CONECTOR ÓPTICO",
