@@ -1,0 +1,172 @@
+{
+  "opcoes": [
+ {
+      "sigla": "ER",
+      "nome": "ENCERRADO SEM REPARO (EM CAMPO)",
+      "combo2opcoes": [
+        "0 - OUTROS"
+      ],
+        "combo3opcoes": [
+        "1 - ACESSO PROIBIDO",
+        "2 - LOCAL FECHADO",
+        "3 - SERVIÇO RESTABELECIDO",
+        "4 - EMISSÃO INDEVIDA",
+        "5 - CLIENTE DESISTIU",
+        "6 - CLIENTE NÃO SOLICITOU / INDEVIDO"
+      ],
+        "combo4opcoes": [
+        "1 - RVT ENTREGUE AO CLIENTE",
+        "2 - RVT DEIXADO NO LOCAL"
+      ],
+         "combo5opcoes": [
+        "0"
+      ]
+    },
+{
+      "sigla": "NC",
+      "nome": "NÃO CONCLUÍDO",
+      "combo2opcoes": [
+        "1 - MOTIVO CLIENTE",
+        "2 - MOTIVO TÉCNICO"
+      ],
+        "combo3opcoes": [
+        "1 - RESPONSÁVEL AUSENTE",
+        "2 - REAGENDAMENTO A PEDIDO DO CLIENTE",
+        "3 - MOTIVO TÉCNIICO",
+        "4 - MASSIVA"
+      ],
+        "combo4opcoes": [
+        "1 - RVT ENTREGUE AO CLIENTE",
+        "2 - RVT DEIXADO NO LOCAL"
+      ],
+         "combo5opcoes": [
+        "0"
+      ]
+    },
+{
+      "sigla": "EO",
+      "nome": "ENCONTRADO OK",
+      "combo2opcoes": [
+        "1 - ATÉ O MODEM",
+        "2 - ATÉ PTR",
+        "3 - ATÉ APARELHO TELEFONICO"
+      ],
+        "combo3opcoes": [
+        "1 - RECLAMAÇÃO DE CONTA",
+        "5 - RETORNO MASSIVA",
+        "3 - LIGOU PARA TIRAR DUVIDAS",
+        "4 - RECLAMAÇÃO DA FIBRA",
+        "5 - FALHA DO CLIENTE AO MEXER"
+      ],
+        "combo4opcoes": [
+        "1 - RVT ENTREGUE AO CLIENTE",
+        "2 - RVT DEIXADO NO LOCAL"
+      ],
+         "combo5opcoes": [
+        "0"
+      ]
+    },
+{
+      "sigla": "RI",
+      "nome": "REDE INTERNA",
+      "combo2opcoes": [
+        "1 - CABEAMENTO DE PROPRIEDADE DO CLIENTE",
+        "2 - CABEAMENTO DE PROPRIDADE DA VIVO"
+      ],
+        "combo3opcoes": [
+        "1 - FALHA SERVIÇO ANTERIOR",
+        "2 - MOTIVO USUÁRIO / VANDALISMO ",
+        "3 - DESGASTE POR TEMPO",
+        "4 - FALHA CLIENTE ",
+        "5 - VANDALISMO"
+      ],
+        "combo4opcoes": [
+        "1 - SUBSTITUÍDO O COMPONENTE",
+        "2 - RECUPERADO O COMPONENTE OU SUBSTITUÍDO PARTE DELE",
+        "3 - DEFEITO NÃO REMOVIDO COM RVT ENTREGUE AO CLIENTE",
+        "0- OUTROS"
+      ],
+         "combo5opcoes": [
+        "0"
+      ]
+    },
+{
+      "sigla": "RE",
+      "nome": "REDE EXTERNA",
+      "combo2opcoes": [
+        "1 -  MANOBRA DE PAR PRIMARIO",
+        "2 -  MANOBRA DE PAR SECUNDARIO",
+        "3 -  TROCA DE FE",
+        "5 - JUMPER NO ARMÁRIO",
+        "6 - JUMPER NO DG",
+        "6 - CAIXA AEREA",
+        "9 - CAIXA INTERNA",
+        "10 - BLE"
+      ],
+        "combo3opcoes": [
+        "1 – CURTO",
+        "2 – ABERTO",
+        "3 - PAR CRUZADO",
+        "4 - BAIXA ISOLAÇÃO",
+        "5 - ROMPIDO POR CARGA ALTA",
+        "6 -ROMPIDO POR VANDALISMO",
+        "7 - ROMPIDO POR TROCA DE POSTE",
+        "8 - ROMPIDO POR DESGASTE",
+        "8 - SEM JUMPER NO CIRCUITO",
+        "8 - JUMPER DESGASTADO",
+        "9 - SEM MODULO NA CAIXA",
+        "10 - FE ABERTO NA CAIXA",
+        "11 - BORNER DANIFICADO",
+        "12 - FE DANIFICADO NO BLE",
+        "13 - BLE OXIDADO"
+      ],
+        "combo4opcoes": [
+        "1 - REALIZADO A MANOBRA",
+        "2 - REALIZADO TROCA DE FE",
+        "3 - REALIZADO TRATATIVA DE PAR",
+        "4 - REALIZADO TROCA DE JUMPER",
+        "5- INSTALADO JUMPER",
+        "6 - TROCA DE BLE",
+        "7 - TROCA DO BORNER",
+        "8 - TROCA DA CAIXA",
+        "9 - REFEITO CONEXÃO",
+      ],
+         "combo5opcoes": [
+        "0"
+      ]
+    },
+{
+      "sigla": "DC",
+      "nome": "DG/CPA",
+      "combo2opcoes": [
+        "1 -  LIC",
+        "2 -  DSLAM",
+        "3 -  MODULO",
+        "4 -  FUSIVEL",
+        "5 -  JUMPER",
+        "6 - GMO",
+        "6 - BLOQUEIO INDEVIDO"
+      ],
+        "combo3opcoes": [
+        "1 –  MANOGRA DE LIC",
+        "2 – MANOBRA DE PORTA",
+        "3 - TROCA",
+        "4 - INSERÇÃO",
+        "5 -  MODULO",
+        "6 - FUSIVEL",
+        "7 - CPA",
+        "7 - GMO"
+      ],
+        "combo4opcoes": [
+        "1 - DESBLOQUEADO",
+        "2 - REALIZADA",
+        "3 - SUBSTITUIDO",
+        "4 - RECUPERADO",
+        "0 - OUTROS"
+      ],
+         "combo5opcoes": [
+        "0"
+      ]
+    }
+  ]
+}
