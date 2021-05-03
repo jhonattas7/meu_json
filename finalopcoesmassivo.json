@@ -84,7 +84,7 @@
         "1 - SUBSTITUÍDO O COMPONENTE",
         "2 - RECUPERADO O COMPONENTE OU SUBSTITUÍDO PARTE DELE",
         "3 - DEFEITO NÃO REMOVIDO COM RVT ENTREGUE AO CLIENTE",
-        "0- OUTROS"
+        "0 - OUTROS"
       ],
          "combo5opcoes": [
         "0"
@@ -94,9 +94,9 @@
       "sigla": "RE",
       "nome": "REDE EXTERNA",
       "combo2opcoes": [
-        "1 -  MANOBRA DE PAR PRIMARIO",
-        "2 -  MANOBRA DE PAR SECUNDARIO",
-        "3 -  TROCA DE FE",
+        "1 - MANOBRA DE PAR PRIMARIO",
+        "2 - MANOBRA DE PAR SECUNDARIO",
+        "3 - TROCA DE FE",
         "5 - JUMPER NO ARMÁRIO",
         "6 - JUMPER NO DG",
         "6 - CAIXA AEREA",
@@ -167,6 +167,6 @@
          "combo5opcoes": [
         "0"
       ]
-    },
+    }
   ]
 }
