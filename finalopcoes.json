@@ -1,25 +1,31 @@
 {
   "opcoes": [
  {
-      "sigla": "ER",
-      "nome": "ENCERRADO SEM REPARO (EM CAMPO)",
+      "sigla": "AB",
+      "nome": "ABERTURA INDEVIDA",
       "combo2opcoes": [
-        "0 - OUTROS"
+        "1 - CLIENTE NÃO SOLICITOU",
+        "3 - ENDEREÇO DIVERGENTE",
+        "4 - CLIENTE SOLICITOU CANCELAMENTO CHAMADO",
+        "5 - MAIS DE UM REPARO PARA MESMO CLIENTE",
+        "6 - PEDIU MUDANÇA DE ENDEREÇO",
+        "7 - PEDIU SERVIÇO PARA OUTRO PRODUTO",
+        "8 - CLIENTE SOLICITOU CANCELAMENTO DO SERVIÇO",
+        "9 - DUVIDA COMERCIAL SOBRE PRODUTOS/SERVIÇOS",
+        "A - BD ABERTO NO TERMINAL ERRADO",
+        "B - RECLAMA QUE CERTOS HORÁRIOS RECEBE LIGAÇÃO",
+        "C - FALTA DE PAGAMENTO",
+        "D -MUDANÇA DE PONTO INTERNO"
       ],
         "combo3opcoes": [
-        "1 - ACESSO PROIBIDO",
-        "2 - LOCAL FECHADO",
-        "3 - SERVIÇO RESTABELECIDO",
-        "4 - EMISSÃO INDEVIDA",
-        "5 - CLIENTE DESISTIU",
-        "6 - CLIENTE NÃO SOLICITOU / INDEVIDO"
+        "0 - OUTROS",
+        "1 - DESPACHO INDEVIDO"
       ],
         "combo4opcoes": [
-        "1 - RVT ENTREGUE AO CLIENTE",
-        "2 - RVT DEIXADO NO LOCAL"
+        "1 - ATENDIMENTO/ESSE"
       ],
          "combo5opcoes": [
-        "0"
+        "0 - ENCERRADO SEM REPARO"
       ]
     },
 {
