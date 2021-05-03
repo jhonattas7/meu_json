@@ -109,7 +109,7 @@
         "3 - PAR CRUZADO",
         "4 - BAIXA ISOLAÇÃO",
         "5 - ROMPIDO POR CARGA ALTA",
-        "6 -ROMPIDO POR VANDALISMO",
+        "6 - ROMPIDO POR VANDALISMO",
         "7 - ROMPIDO POR TROCA DE POSTE",
         "8 - ROMPIDO POR DESGASTE",
         "8 - SEM JUMPER NO CIRCUITO",
@@ -125,7 +125,7 @@
         "2 - REALIZADO TROCA DE FE",
         "3 - REALIZADO TRATATIVA DE PAR",
         "4 - REALIZADO TROCA DE JUMPER",
-        "5- INSTALADO JUMPER",
+        "5-  INSTALADO JUMPER",
         "6 - TROCA DE BLE",
         "7 - TROCA DO BORNER",
         "8 - TROCA DA CAIXA",
@@ -148,11 +148,11 @@
         "6 - BLOQUEIO INDEVIDO"
       ],
         "combo3opcoes": [
-        "1 –  MANOGRA DE LIC",
+        "1 – MANOGRA DE LIC",
         "2 – MANOBRA DE PORTA",
         "3 - TROCA",
         "4 - INSERÇÃO",
-        "5 -  MODULO",
+        "5 - MODULO",
         "6 - FUSIVEL",
         "7 - CPA",
         "7 - GMO"
