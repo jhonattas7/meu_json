@@ -16,7 +16,7 @@
         "B - RECLAMA QUE CERTOS HORÁRIOS RECEBE LIGAÇÃO",
         "C - FALTA DE PAGAMENTO",
         "D - MUDANÇA DE PONTO INTERNO",
-        "E - RECLAMAÇÃO DO METALICO
+        "E - RECLAMAÇÃO DO METALICO"
       ]
     },
 {
@@ -70,16 +70,16 @@
       "combo2opcoes": [
         "0 - TROCA HGU",
         "1 - TROCA DECODER",
-	"2 - TROCA HGU/STB PEDIDO CLIENTE",
+	      "2 - TROCA HGU/STB PEDIDO CLIENTE",
         "3 - RESET HGU",
         "4 - RESET DECODER",
-	"5 - CONFIGURAÇÃO HGU",
-	"6 - CONFIGURAÇÃO DECODER",
+	      "5 - CONFIGURAÇÃO HGU",
+	      "6 - CONFIGURAÇÃO DECODER",
         "7 - ROTEADOR",
         "8 - REPETIDOR / BASEPORT",	
         "9 - ATA",
-	"A - FONTE ALIMENTAÇÃO",
-	"B - CONTROLE REMOTO"
+	      "A - FONTE ALIMENTAÇÃO",
+	      "B - CONTROLE REMOTO"
       ]
     },
 {
@@ -88,7 +88,7 @@
       "combo2opcoes": [
         "A- RECRIADO VLANS",
         "B- RECRIADO VOIP",
-	"C- CONFIGURAÇÃO SLOTS",
+	      "C- CONFIGURAÇÃO SLOTS",
         "D- ERRO CADASTRO"
       ]
     },
@@ -101,12 +101,12 @@
         "2 - TV",
         "3 - ROTEADOR",
         "4 - PABX",
-	"5 - TV BOX (PIRATA)",
-	"6 - CAMERAS",
-	"7 - ALEXA",
-	"8 - VIDEO GAME",
-	"9 - STREAMING ( NETFLIX , GLOBO PLAY , ETC)",
-	"A - CELULAR (WIFI),	
+	      "5 - TV BOX (PIRATA)",
+	      "6 - CAMERAS",
+	      "7 - ALEXA",
+	      "8 - VIDEO GAME",
+	      "9 - STREAMING ( NETFLIX , GLOBO PLAY , ETC)",
+	      "A - CELULAR (WIFI)"	
         "B - SERVIDOR"
       
       ]
