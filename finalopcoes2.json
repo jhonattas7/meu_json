@@ -15,7 +15,8 @@
         "A - BD ABERTO NO TERMINAL ERRADO",
         "B - RECLAMA QUE CERTOS HORÁRIOS RECEBE LIGAÇÃO",
         "C - FALTA DE PAGAMENTO",
-        "D -MUDANÇA DE PONTO INTERNO"
+        "D - MUDANÇA DE PONTO INTERNO",
+        "E - RECLAMAÇÃO DO METALICO"
       ],
         "combo3opcoes": [
         "0 - OUTROS",
@@ -29,14 +30,17 @@
       ]
     },
 {
-      "sigla": "FC",
-      "nome": "FIBRA CLIENTE",
+      "sigla": "EO",
+      "nome": "ENCONTRADO OK",
       "combo2opcoes": [
-        "0 - CONECTOR CTOP / CDOI / CDOE",
-        "1 - CONECTOR ÓPTICO",
-        "2 - DROP",
-        "3 - PTO",
-        "4 - CORDÃO MONOFIBRA"
+        "0 - VOLTOU A FUNCIONAR",
+        "1 - ORIENTAÇÃO AO CLIENTE",
+        "3 - ERRO NA INSTALAÇÃO/VISITA ANTERIOR",
+        "4 - CLIENTE RECLAMA INTERMITENCIA NO SERVIÇO BL",
+        "5 - CLIENTE RECLAMA INTERMITENCIA NO SERVIÇO TV",
+        "6 - CLIENTE RECLAMA INTERMITENCIA NO SERVIÇO VOIP",
+	      "7 - RETORNO MASSIVA",
+	      "8 - RETORNO FU"
       ],
         "combo3opcoes": [
         "0 - DANIFICADO",
@@ -66,11 +70,13 @@
       "sigla": "RE",
       "nome": "REDE EXTERNA",
       "combo2opcoes": [
-        "0 - CDOI-F/S/C/P/E",
-        "1 - CTO-F/S/C/P",
-        "2 - DGOI-F/C",
-        "3 - CABO ÓPTICO EXTERNO",
-        "4 - CABO RISER"
+        "0 - MASSIVA",
+        "1 - FU",
+        "2 - TROCA DROP Carga Alta",
+        "3 - TROCA DROP Queda Arvore",
+        "4 - TROCA DROP Troca Poste",
+	      "5 - TROCA CONECTOR EXTERNO",
+	      "6 - FALHA SERVIÇO ANTERIOR"
       ],
         "combo3opcoes": [
         "0 - FIBRA SEM SINAL",
@@ -98,12 +104,18 @@
       ]
     },
 {
-      "sigla": "RC",
-      "nome": "REDE COAXIAL",
+      "sigla": "RI",
+      "nome": "REDE INTERNA",
       "combo2opcoes": [
-        "0 - CABO COAXIAL",
-        "1 - CONECTOR F",
-        "2 - SPLITTER COAXIAL"
+        "0 - TROCA REDE COAXIAL",
+        "1 - TROCA REDE ETH",
+        "2 - TROCA CONECTOR INTERNO",
+	      "3 - TROCA DROP INTERNO",
+	      "4 - CONECTOR RG6",
+	      "5 - CONECTOR RJ 11/45",
+	      "6 - FIAÇÃO INTERNA TELEFONIA",
+	      "7 - SPLITER COAXIAL",
+	      "D - PTO/CORDÃO MONOFIBRA"
       ],
         "combo3opcoes": [
         "0 - DANIFICADO",
@@ -131,13 +143,18 @@
       "sigla": "DI",
       "nome": "DISPOSITIVO",
       "combo2opcoes": [
-        "2 - BHS",
-        "3 - ONT",
-        "4 - STB",
-        "5 - HGU",
-        "6 - ROTEADOR",
-        "7 - REPETIDOR / BASEPORT",
-        "8 - ATA"
+        "0 - TROCA HGU",
+        "1 - TROCA DECODER",
+	      "2 - TROCA HGU/STB PEDIDO CLIENTE",
+        "3 - RESET HGU",
+        "4 - RESET DECODER",
+	      "5 - CONFIGURAÇÃO HGU",
+	      "6 - CONFIGURAÇÃO DECODER",
+        "7 - ROTEADOR",
+        "8 - REPETIDOR / BASEPORT",	
+        "9 - ATA",
+	      "A - FONTE ALIMENTAÇÃO",
+	      "B - CONTROLE REMOTO"
       ],
         "combo3opcoes": [
         "0 - ATUALIZAÇÃO DE FIRMWARE",
@@ -184,9 +201,10 @@
       "sigla": "SI",
       "nome": "SISTEMA",
       "combo2opcoes": [
-        "A- BANDA LARGA",
-        "B- IPTV",
-        "C- VOIP"
+        "A- RECRIADO VLANS",
+        "B- RECRIADO VOIP",
+	      "C- CONFIGURAÇÃO SLOTS",
+        "D- ERRO CADASTRO"
       ],
         "combo3opcoes": [
         "A- SEM SINCRONISMO",
@@ -245,15 +263,21 @@
       ]
     },
 {
-      "sigla": "EO",
-      "nome": "ENCONTRADO OK",
+      "sigla": "EC",
+      "nome": "EQUIPAMENTO CLIENTE",
       "combo2opcoes": [
-        "0 - SERVIÇO RESTABELECIDO SEM TESTES",
-        "1 - ORIENTAÇÃO AO CLIENTE",
-        "3 - ERRO NA INSTALAÇÃO/VISITA ANTERIOR",
-        "4 - CLIENTE RECLAMA INTERMITENCIA NO SERVIÇO BL",
-        "5 - CLIENTE RECLAMA INTERMITENCIA NO SERVIÇO TV",
-        "6 - CLIENTE RECLAMA INTERMITENCIA NO SERVIÇO VOIP"
+        "0 - COMPUTADOR",
+        "1 - AP. TELEFONE",
+        "2 - TV",
+        "3 - ROTEADOR",
+        "4 - PABX",
+	      "5 - TV BOX (PIRATA)",
+	      "6 - CAMERAS",
+	      "7 - ALEXA",
+	      "8 - VIDEO GAME",
+	      "9 - STREAMING ( NETFLIX , GLOBO PLAY , ETC)",
+	      "A - CELULAR (WIFI)",	
+        "B - SERVIDOR"
       ],
         "combo3opcoes": [
         "0 - SEM ACESSO AO IMOVEL DO CLIENTE",
@@ -283,111 +307,18 @@
       ]
     },
 {
-      "sigla": "CP",
-      "nome": "CLIENTE PERIFÉRICOS DO CLIENTE",
-      "combo2opcoes": [
-        "0 - PERIFÉRICOS DO CLIENTE"
-      ],
-        "combo3opcoes": [
-        "1 - APARELHO TELEFONICO DANIFICADO",
-        "2 - COMPUTADOR DO CLIENTE",
-        "3 - CELULAR DO CLIENTE",
-        "4 - TV DO CLIENTE / TV PIRATA",
-        "5 - REPETIDOR Wi-Fi DO CLIENTE",
-        "6 - ROTEADOR DO CLIENTE",
-        "7 - TESTE VELOCIDADE EM SITE NÃO CONFIÁVEL"
-      ],
-        "combo4opcoes": [
-        "0 - CLIENTE"
-      ],
-         "combo5opcoes": [
-        "1 - INSTALADO O SUB-COMPONENTE",
-        "2 - SUBSTITUÍDO O SUB-COMPONENTE",
-        "3 - RECUPERADO O SUB-COMPONENTE OU SUBSTITUÍDO PARTE DELE",
-        "4 - RECONFIGURADO O SUB-COMPONENTE",
-        "5 - RECONECTADO O SUB-COMPONENTE",
-        "6 - RESET NO BOTÃO",
-        "7 - REPOSICIONADO O SUB-COMPONENTE",
-        "8 - CABO RECONECTADO",
-        "9 - COMPONENTE RELIGADO NA TOMADA",
-        "A - TESTADO SEM DEFEITO"
-      ]
-    },
-{
-      "sigla": "CR",
-      "nome": "CLIENTE REDE INTERNA",
-      "combo2opcoes": [
-        "1- REDE INTERNA"
-      ],
-        "combo3opcoes": [
-        "8 - CABO RJ11/RJ45",
-        "9 - FIAÇÃO INTERNA TELEFONIA",
-        "A - TOMADA ELÉTRICA",
-        "B - DROP",
-        "C - CONECTOR ÓPTICO",
-        "D - PTO/CORDÃO MONOFIBRA",
-        "E - CABO COAXIAL / SPLITTER",
-        "F - CONECTOR F",
-        "G - CABO UTP"
-      ],
-        "combo4opcoes": [
-        "0 - CLIENTE"
-      ],
-         "combo5opcoes": [
-        "1 - INSTALADO O SUB-COMPONENTE",
-        "2 - SUBSTITUÍDO O SUB-COMPONENTE",
-        "3 - RECUPERADO O SUB-COMPONENTE OU SUBSTITUÍDO PARTE DELE",
-        "4 - RECONFIGURADO O SUB-COMPONENTE",
-        "5 - RECONECTADO O SUB-COMPONENTE",
-        "6 - RESET NO BOTÃO",
-        "7 - REPOSICIONADO O SUB-COMPONENTE",
-        "8 - CABO RECONECTADO",
-        "9 - COMPONENTE RELIGADO NA TOMADA",
-        "A - TESTADO SEM DEFEITO"
-      ]
-    },
-{
-      "sigla": "CD",
-      "nome": "CLIENTE DISPOSITIVOS",
-      "combo2opcoes": [
-        "2 - DISPOSITIVOS"
-      ],
-        "combo3opcoes": [
-        "H - CABO HDMI / AV",
-        "I - SUPERAQUECIMENTO",
-        "J - CONTROLE REMOTO",
-        "K - QUEIMADO / NÃO LIGA / DANIFICADO",
-        "L - FONTE DE ALIMENTAÇÃO/ DESLIGADO DA TOMADA",
-        "M - WI-FI DESATIVADO",
-        "O - DESCONFIGURADO PELO CLIENTE",
-        "P - ANTENA QUEBRADA",
-        "Q - SEM PARIDADE WI-FI (REPETIDOR/STB WI-FI)",
-        "R - AUSENTE REESTABELECIDO",
-        "T - PILHAS CONTROLE REMOTO FRACA/AUSENTE",
-        "U - CABO WAN/LAN SOLTO OU INVERTIDO"
-      ],
-        "combo4opcoes": [
-        "0 - CLIENTE"
-      ],
-         "combo5opcoes": [
-        "1 - INSTALADO O SUB-COMPONENTE",
-        "2 - SUBSTITUÍDO O SUB-COMPONENTE",
-        "3 - RECUPERADO O SUB-COMPONENTE OU SUBSTITUÍDO PARTE DELE",
-        "4 - RECONFIGURADO O SUB-COMPONENTE",
-        "5 - RECONECTADO O SUB-COMPONENTE",
-        "6 - RESET NO BOTÃO",
-        "7 - REPOSICIONADO O SUB-COMPONENTE",
-        "8 - CABO RECONECTADO",
-        "9 - COMPONENTE RELIGADO NA TOMADA",
-        "A - TESTADO SEM DEFEITO"
-      ]
-    },
-{
       "sigla": "WF",
       "nome": "WI-FI",
       "combo2opcoes": [
-        "0 - TESTADO SEM DEFEITO ",
-        "1 - DISPOSITIVO"
+        "0 - FORA DO ALCANCE Wi-Fi ",
+        "1 - TROCA CANAL Wi-Fi",
+        "2 - WI-FI DESATIVADO ",
+        "3 - BAIXA VELOCIDADE WI-FI 2,4G",
+        "4 - BAIXA VELOCIDADE WI-FI 5G",
+        "5 - WI-FI DANIFICADO",
+        "6 - SEM PARIDADE WI-FI (REPETIDOR/STB WI-FI)",
+        "7 - ANTENA QUEBRADA",
+        "8 - QUEDA DE CONEXÃO"
       ],
         "combo3opcoes": [
         "0 - FORA DO ALCANCE Wi-Fi ",
