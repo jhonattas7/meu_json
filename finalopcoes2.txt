@@ -1,0 +1,131 @@
+{
+  "opcoes": [
+ {
+      "sigla": "AB",
+      "nome": "ABERTURA INDEVIDA",
+      "combo2opcoes": [
+        "1 - CLIENTE NÃO SOLICITOU",
+        "3 - ENDEREÇO DIVERGENTE",
+        "4 - CLIENTE SOLICITOU CANCELAMENTO CHAMADO",
+        "5 - MAIS DE UM REPARO PARA MESMO CLIENTE",
+        "6 - PEDIU MUDANÇA DE ENDEREÇO",
+        "7 - PEDIU SERVIÇO PARA OUTRO PRODUTO",
+        "8 - CLIENTE SOLICITOU CANCELAMENTO DO SERVIÇO",
+        "9 - DUVIDA COMERCIAL SOBRE PRODUTOS/SERVIÇOS",
+        "A - BD ABERTO NO TERMINAL ERRADO",
+        "B - RECLAMA QUE CERTOS HORÁRIOS RECEBE LIGAÇÃO",
+        "C - FALTA DE PAGAMENTO",
+        "D - MUDANÇA DE PONTO INTERNO",
+        "E - RECLAMAÇÃO DO METALICO
+      ]
+    },
+{
+      "sigla": "EO",
+      "nome": "ENCONTRADO OK",
+      "combo2opcoes": [
+        "0 - VOLTOU A FUNCIONAR",
+        "1 - ORIENTAÇÃO AO CLIENTE",
+        "3 - ERRO NA INSTALAÇÃO/VISITA ANTERIOR",
+        "4 - CLIENTE RECLAMA INTERMITENCIA NO SERVIÇO BL",
+        "5 - CLIENTE RECLAMA INTERMITENCIA NO SERVIÇO TV",
+        "6 - CLIENTE RECLAMA INTERMITENCIA NO SERVIÇO VOIP",
+	"7 - RETORNO MASSIVA",
+	"8 - RETORNO FU"
+      ]
+        
+    },
+{
+      "sigla": "RE",
+      "nome": "REDE EXTERNA",
+      "combo2opcoes": [
+        "0 - MASSIVA",
+        "1 - FU",
+        "2 - TROCA DROP Carga Alta",
+        "3 - TROCA DROP Queda Arvore",
+        "4 - TROCA DROP Troca Poste",
+	"5 - TROCA CONECTOR EXTERNO",
+	"6 - FALHA SERVIÇO ANTERIOR"
+      ]       
+     
+    },
+{
+      "sigla": "RI",
+      "nome": "REDE INTERNA",
+      "combo2opcoes": [
+        "0 - TROCA REDE COAXIAL",
+        "1 - TROCA REDE ETH",
+        "2 - TROCA CONECTOR INTERNO",
+	"3 - TROCA DROP INTERNO",
+	"4 - CONECTOR RG6",
+	"5 - CONECTOR RJ 11/45",
+	"6 - FIAÇÃO INTERNA TELEFONIA",
+	"7 - SPLITER COAXIAL",
+	"D - PTO/CORDÃO MONOFIBRA"
+
+      ]
+    },
+{
+      "sigla": "DI",
+      "nome": "DISPOSITIVO",
+      "combo2opcoes": [
+        "0 - TROCA HGU",
+        "1 - TROCA DECODER",
+	"2 - TROCA HGU/STB PEDIDO CLIENTE",
+        "3 - RESET HGU",
+        "4 - RESET DECODER",
+	"5 - CONFIGURAÇÃO HGU",
+	"6 - CONFIGURAÇÃO DECODER",
+        "7 - ROTEADOR",
+        "8 - REPETIDOR / BASEPORT",	
+        "9 - ATA",
+	"A - FONTE ALIMENTAÇÃO",
+	"B - CONTROLE REMOTO"
+      ]
+    },
+{
+      "sigla": "SI",
+      "nome": "SISTEMA",
+      "combo2opcoes": [
+        "A- RECRIADO VLANS",
+        "B- RECRIADO VOIP",
+	"C- CONFIGURAÇÃO SLOTS",
+        "D- ERRO CADASTRO"
+      ]
+    },
+{
+      "sigla": "EC",
+      "nome": "EQUIPAMENTO CLIENTE",
+      "combo2opcoes": [
+        "0 - COMPUTADOR",
+        "1 - AP. TELEFONE",
+        "2 - TV",
+        "3 - ROTEADOR",
+        "4 - PABX",
+	"5 - TV BOX (PIRATA)",
+	"6 - CAMERAS",
+	"7 - ALEXA",
+	"8 - VIDEO GAME",
+	"9 - STREAMING ( NETFLIX , GLOBO PLAY , ETC",
+	"A - CELULAR (WIFI)	
+        "B - SERVIDOR"
+      
+      ]
+    },
+{
+      "sigla": "WF",
+      "nome": "WI-FI",
+      "combo2opcoes": [
+        "0 - FORA DO ALCANCE Wi-Fi ",
+        "1 - TROCA CANAL Wi-Fi",
+        "2 - WI-FI DESATIVADO ",
+        "3 - BAIXA VELOCIDADE WI-FI 2,4G",
+        "4 - BAIXA VELOCIDADE WI-FI 5G",
+        "5 - WI-FI DANIFICADO",
+        "6 - SEM PARIDADE WI-FI (REPETIDOR/STB WI-FI)",
+        "7 - ANTENA QUEBRADA",
+        "8 - QUEDA DE CONEXÃO"
+      ]        
+    }
+
+  ]
+}
