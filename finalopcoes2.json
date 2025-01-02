@@ -16,17 +16,8 @@
         "B - RECLAMA QUE CERTOS HORÁRIOS RECEBE LIGAÇÃO",
         "C - FALTA DE PAGAMENTO",
         "D - MUDANÇA DE PONTO INTERNO",
-        "E - RECLAMAÇÃO DO METALICO"
-      ],
-        "combo3opcoes": [
-        "0 - OUTROS",
-        "1 - DESPACHO INDEVIDO"
-      ],
-        "combo4opcoes": [
-        "1 - ATENDIMENTO/ESSE"
-      ],
-         "combo5opcoes": [
-        "0 - ENCERRADO SEM REPARO"
+        "E - INDEVIDO CRM",
+        "F - RECLAMAÇÃO DO METALICO"
       ]
     },
 {
@@ -39,32 +30,10 @@
         "4 - CLIENTE RECLAMA INTERMITENCIA NO SERVIÇO BL",
         "5 - CLIENTE RECLAMA INTERMITENCIA NO SERVIÇO TV",
         "6 - CLIENTE RECLAMA INTERMITENCIA NO SERVIÇO VOIP",
-	      "7 - RETORNO MASSIVA",
-	      "8 - RETORNO FU"
-      ],
-        "combo3opcoes": [
-        "0 - DANIFICADO",
-        "1 - RECONECTADO",
-        "2 - ROMPIDO NA EXTERNA",
-        "3 - ROMPIDO NA INTERNA",
-        "4 - VANDALISMO",
-        "5 - FACILIDADE SENDO UTILIZADA POR OUTRO CLIENTE",
-        "6 - LIMPEZA CONECTOR",
-        "7 - AUSENTE"
-      ],
-        "combo4opcoes": [
-        "0 - NÃO IDENTIFICADO",
-        "1 - FALHA DO SERVIÇO ANTERIOR",
-        "2 - CARGA ALTA",
-        "4 - QUEDA DE ARVORE/TROCA DE POSTE",
-        "5 - VANDALISMO"
-      ],
-         "combo5opcoes": [
-        "0 - RECONECTADO",
-        "1 - INSTALADO O COMPONENTE",
-        "2- SUBSTITUÍDO O COMPONENTE",
-        "3- RECUPERADO O COMPONENTE OU SUBSTITUÍDO PARTE DELE"
+	"7 - RETORNO MASSIVA",
+	"8 - RETORNO FU"
       ]
+        
     },
 {
       "sigla": "RE",
@@ -75,33 +44,12 @@
         "2 - TROCA DROP Carga Alta",
         "3 - TROCA DROP Queda Arvore",
         "4 - TROCA DROP Troca Poste",
-	      "5 - TROCA CONECTOR EXTERNO",
-	      "6 - FALHA SERVIÇO ANTERIOR"
-      ],
-        "combo3opcoes": [
-        "0 - FIBRA SEM SINAL",
-        "1 - FIBRA ATENUADA",
-        "2 - DESORGANIZADO",
-        "3 - FIBRA INVERTIDA",
-        "4 - SATURADO",
-        "5 - FIBRA QUEBRADA",
-        "6 - LIMPEZA CONECTOR",
-        "7 - AUSENTE"
-      ],
-        "combo4opcoes": [
-        "0 - NÃO IDENTIFICADO",
-        "1 - FALHA DO SERVIÇO ANTERIOR",
-        "2 - MASSIVA",
-        "3 - VANDALISMO",
-        "4 - QUEDA DE ARVORE/TROCA DE POSTE",
-        "5 - RETORNO DE TA"
-      ],
-         "combo5opcoes": [
-        "0 - ABERTURA DE TA",
-        "1 - INFORMADA DGOI DESORGANIZADO",
-        "2 - INFORMADA REDE SATURADA",
-        "3 - RECONETADO O SUB-COMPONENTE"
-      ]
+	"5 - TROCA CONECTOR EXTERNO",
+	"6 - FALHA SERVIÇO ANTERIOR",
+	"7 - REFEITA FUSAO",
+	"8 - CABO SOLTO CTO"
+      ]       
+     
     },
 {
       "sigla": "RI",
@@ -110,33 +58,13 @@
         "0 - TROCA REDE COAXIAL",
         "1 - TROCA REDE ETH",
         "2 - TROCA CONECTOR INTERNO",
-	      "3 - TROCA DROP INTERNO",
-	      "4 - CONECTOR RG6",
-	      "5 - CONECTOR RJ 11/45",
-	      "6 - FIAÇÃO INTERNA TELEFONIA",
-	      "7 - SPLITER COAXIAL",
-	      "D - PTO/CORDÃO MONOFIBRA"
-      ],
-        "combo3opcoes": [
-        "0 - DANIFICADO",
-        "1 - COAXIAL JUNTO COM REDE ELÉTRICA",
-        "4 - INTERLIGADO COM REDE OUTRA OPERADORA",
-        "5 - INTERLIGADO COM REDE OUTRO SERVIÇO",
-        "6 - ROUBO / FURTO / AUSENTE",
-        "7 - CABO/SPLITTER/CONECTOR F INCOMPATIVEL",
-        "8 - SPLITTER EXCEDENTE NA REDE"
-      ],
-        "combo4opcoes": [
-        "0 - PASSIVOS COAXIAL",
-        "1 - FALHA DO SERVIÇO ANTERIOR"
-      ],
-         "combo5opcoes": [
-        "0 - MUDANÇA DE INTERFASE (COAXIAL - UTP/WI-FI)",
-        "1 - INSTALADO O COMPONENTE",
-        "2 - SUBSTITUÍDO O COMPONENTE",
-        "3 - RECUPERADO O COMPONENTE OU SUBSTITUÍDO PARTE DELE",
-        "4 - REPOSICIONADO O COMPONENTE",
-        "5 - REFEITO A INSTALAÇÃO"
+	"3 - TROCA DROP INTERNO",
+	"4 - CONECTOR RG6",
+	"5 - CONECTOR RJ 11/45",
+	"6 - FIAÇÃO INTERNA TELEFONIA",
+	"7 - SPLITER COAXIAL",
+	"D - PTO/CORDÃO MONOFIBRA"
+
       ]
     },
 {
@@ -145,56 +73,18 @@
       "combo2opcoes": [
         "0 - TROCA HGU",
         "1 - TROCA DECODER",
-	      "2 - TROCA HGU/STB PEDIDO CLIENTE",
+	"2 - TROCA HGU/STB PEDIDO CLIENTE",
         "3 - RESET HGU",
         "4 - RESET DECODER",
-	      "5 - CONFIGURAÇÃO HGU",
-	      "6 - CONFIGURAÇÃO DECODER",
+	"5 - CONFIGURAÇÃO HGU",
+	"6 - CONFIGURAÇÃO DECODER",
         "7 - ROTEADOR",
         "8 - REPETIDOR / BASEPORT",	
         "9 - ATA",
-	      "A - FONTE ALIMENTAÇÃO",
-	      "B - CONTROLE REMOTO"
-      ],
-        "combo3opcoes": [
-        "0 - ATUALIZAÇÃO DE FIRMWARE",
-        "1 - DISTÂNCIA ONT/BHS",
-        "2 - DRA",
-        "3 - FONTE DE ALIMENTAÇÃO",
-        "7 - SUPERAQUECIMENTO",
-        "9 - CABO HDMI / AV",
-        "A - CONTROLE REMOTO",
-        "C - TRAVADO",
-        "D - QUEIMADO / NÃO LIGA",
-        "E - CABO WAN/LAN SOLTO OU INVERTIDO",
-        "H - HPNA COM DEFEITO",
-        "I - BAIXA VELOCIDADE (CABO UTP)",
-        "K - NÃO NAVEGA EM SITE IPV6",
-        "M - APENAS LEDS QUEIMADOS E EQUIP. OK",
-        "N - NÃO GRAVA",
-        "O - GRAVA MAS NÃO REPRODUZ",
-        "Q - PORTA FXS COM DEFEITO",
-        "S - AUSENTE",
-        "T - PORTA WAN/LAN",
-        "U - PORTA ENTRADA OPTICA"
-      ],
-        "combo4opcoes": [
-        "0 - NÃO IDENTIFICADO",
-        "1 - FALHA DO SERVIÇO ANTERIOR",
-        "2 - DESCARGA ELÉTRICA/ATMOSFÉRICA",
-        "3 - DISPOSITIVO",
-        "5 - ROUBO OU FURTO"
-      ],
-         "combo5opcoes": [
-        "1 - INSTALADO O COMPONENTE",
-        "2 - SUBSTITUÍDO O COMPONENTE",
-        "3 - RECUPERADO O COMPONENTE OU SUBSTITUÍDO PARTE DELE",
-        "4 - MANOBRA DE PORTA",
-        "5 - RECONFIGURADO O COMPONENTE",
-        "6 - RESET NO BOTÃO",
-        "7 - REPOSICIONADO O COMPONENTE",
-        "8 - BOOT ELETRICO SEQUENCIAL",
-        "9 - ATUALIZADA VERSÃO FIRMWARE"
+	"A - FONTE ALIMENTAÇÃO",
+	"B - CONTROLE REMOTO",
+	"C - "SOLICITACAO INDEVIDA TROCA HGU6"
+	
       ]
     },
 {
@@ -203,63 +93,9 @@
       "combo2opcoes": [
         "A- RECRIADO VLANS",
         "B- RECRIADO VOIP",
-	      "C- CONFIGURAÇÃO SLOTS",
-        "D- ERRO CADASTRO"
-      ],
-        "combo3opcoes": [
-        "A- SEM SINCRONISMO",
-        "B- NÃO CONECTA",
-        "C- NÃO NAVEGA",
-        "E- QUEDA DE CONEXÃO",
-        "F- SEM IMAGEM (TELA PRETA/ LOGO VIVO/ ENGRENAGEM)",
-        "G- QUADRICULAMENTO",
-        "H- QUEDA DE SINAL TV (IMAGEM) ",
-        "I- CANAIS ESPECÍFICOS",
-        "J- LINHA MUDA",
-        "K- NÃO EFETUA E/OU NÃO RECEBE CHAMADA",
-        "L- PORTABILIDADE",
-        "M - STB CADASTRADO EM OUTRO CLIENTE",
-        "N - BAIXA VELOCIDADE DOWNLOAD",
-        "O - BAIXA VELOCIDADE UPLOAD",
-        "P - ALTERAÇÃO DE PLANO PAROU O OUTRO SERVIÇO",
-        "Q - DISPOSITIVO COM ERRO DE INVENTÁRIO"
-      ],
-        "combo4opcoes": [
-        "1- SEM CONFIGURAÇÃO DE VLAN",
-        "2- CONFIGURAÇÃO ERRADA DE VLAN",
-        "3- MASSIVA",
-        "4- ERRO DE CADASTRO",
-        "5- DIVERGENCIA NO RADIUS",
-        "6- BLOQUEIO INDEVIDO",
-        "7- VOIP NÃO CONFIGURADO ",
-        "8- DIVERGENCIA DE CADASTRO DO DISPOSITIVO",
-        "9- MAC DISPOSITIVO NÃO CADASTRADO OU DIVERGENTE",
-        "A- PACOTE DIVERGENTE",
-        "B- ATUAÇÃO VOD/ REPRISE",
-        "C- IP DUPLICADO",
-        "D - ALARMANDO EM PRIMÁRIA DIVERGENTE",
-        "E - ROTEADOR INCOMPATIVEL",
-        "F - CARGA RADIUS",
-        "G - ERRO TECNOLOGIA DE ACESSO",
-        "H - CLIENTE IP FIXO ESTA COMO DINÂMICO",
-        "I - CLIENTE FOI MIGRADO DE SISTEMA",
-        "J - DISPOSITIVO BLOQUEADO NO SISTEMA"
-      ],
-         "combo5opcoes": [
-        "2- RECONFIGURAÇÃO DE VLANS",
-        "3- INFORMADO TA REDE INTERNA",
-        "4- ABERTURA CHAMADO REMERY/SAN",
-        "5- CRIACO/ALTERADO CARGA RADIUS",
-        "6- TRATATIVA COMERCIAL",
-        "7- REENVIO DE SINAL FXS/SIP/TERUS",
-        "8- CONFIGURAÇÃO do SLOT",
-        "9- CONFIGURAÇÃO DE DISPOSITIVO",
-        "A - DESBLOQUEIO DE SERVIÇO",
-        "B - REAPROVISIONADO SERVICE PORT ERRO 7342",
-        "C - MANOBRA",
-        "D - NÃO SOLUCIONADO PELO CO",
-        "E - ORIENTADO A LIGAR NO 10315",
-        "F - RECONFIGURADO PARA IP FIXO"
+	"C- CONFIGURAÇÃO SLOTS",
+	"C- ERRO CADASTRO",
+        "D- REASSOCIACAO EQUIPAMENTO"
       ]
     },
 {
@@ -271,82 +107,32 @@
         "2 - TV",
         "3 - ROTEADOR",
         "4 - PABX",
-	      "5 - TV BOX (PIRATA)",
-	      "6 - CAMERAS",
-	      "7 - ALEXA",
-	      "8 - VIDEO GAME",
-	      "9 - STREAMING ( NETFLIX , GLOBO PLAY , ETC)",
-	      "A - CELULAR (WIFI)",	
+	"5 - TV BOX (PIRATA)",
+	"6 - CAMERAS",
+	"7 - ALEXA",
+	"8 - VIDEO GAME",
+	"9 - STREAMING ( NETFLIX , GLOBO PLAY , ETC",
+	"A - CELULAR (WIFI)",	
         "B - SERVIDOR"
-      ],
-        "combo3opcoes": [
-        "0 - SEM ACESSO AO IMOVEL DO CLIENTE",
-        "1 - OPERAÇÃO DO CONTROLE REMOTO",
-        "2 - TESTE VELOCIDADE EM SITE NÃO CONFIÁVEL",
-        "3 - NÃO SABE USAR PRODUTO IPTV",
-        "4 - APARELHO TELEFONICO DESCONECTADO",
-        "5 - UTILIZAÇÃO INDEVIDA DO PRODUTO ( FRAUDE)",
-        "9 - AJUSTES NO APARELHO TELEFONICO DO CLIENTE",
-        "A - DISPOSITIVO INSTALADO EM LOCAL INAPROPRIADO",
-        "B - CABO HDMI/AV AUSENTE",
-        "C - NÃO COMPROVADA FALHA DURANTE A VISITA TÉCNICA"
-      ],
-        "combo4opcoes": [
-        "0 - RETORNO DE TA",
-        "1 - FALHA DO SERVIÇO ANTERIOR",
-        "2 - NÃO IDENTIFICADO",
-        "3- CLIENTE"
-      ],
-         "combo5opcoes": [
-        "0 - REPARO NÃO REALIZADO",
-        "1 - CLIENTE ORIENTADO USO SERVIÇO",
-        "2 - REPARO EXECUTADO POR TÉCNICO ANTERIOR",
-        "3 - CONFIGURADO/ RECONFIGURADO EQUIPAMENTO DO CLIENTE",
-        "4 - CORRIGIDA A INSTALAÇÃO",
-        "5 - TESTADO SEM DEFEITO"
+      
       ]
     },
 {
       "sigla": "WF",
       "nome": "WI-FI",
       "combo2opcoes": [
-        "0 - FORA DO ALCANCE Wi-Fi ",
+        "0 - FORA DO ALCANCE Wi-Fi",
         "1 - TROCA CANAL Wi-Fi",
-        "2 - WI-FI DESATIVADO ",
+        "2 - WI-FI DESATIVADO",
         "3 - BAIXA VELOCIDADE WI-FI 2,4G",
         "4 - BAIXA VELOCIDADE WI-FI 5G",
         "5 - WI-FI DANIFICADO",
         "6 - SEM PARIDADE WI-FI (REPETIDOR/STB WI-FI)",
         "7 - ANTENA QUEBRADA",
-        "8 - QUEDA DE CONEXÃO"
-      ],
-        "combo3opcoes": [
-        "0 - FORA DO ALCANCE Wi-Fi ",
-        "1 - TROCA CANAL Wi-Fi",
-        "2 - WI-FI DESATIVADO ",
-        "3 - BAIXA VELOCIDADE WI-FI 2,4G",
-        "4 - BAIXA VELOCIDADE WI-FI 5G",
-        "5 - WI-FI DANIFICADO",
-        "6 - SEM PARIDADE WI-FI (REPETIDOR/STB WI-FI)",
-        "7 - ANTENA QUEBRADA",
-        "8 - QUEDA DE CONEXÃO"
-      ],
-        "combo4opcoes": [
-        "0 - DISPOSITIVO",
-        "1 - FALHA DO SERVIÇO ANTERIOR",
-        "2 - LOCAL COM NÍVEL DE SINAL ABAIXO DO MÍNIMO"
-      ],
-         "combo5opcoes": [
-        "1 - INSTALADO O COMPONENTE",
-        "2 - SUBSTITUÍDO O COMPONENTE",
-        "3 - RECONFIGURADO O COMPONENTE",
-        "4 - RESET NO BOTÃO",
-        "5 - BOOT ELÉTRICO SEQUENCIAL",
-        "6 - REPOSICIONADO O COMPONENTE",
-        "7 - ATUALIZADA VERSÃO FIRMWARE",
-        "8 - NECESSÁRIO REPETIDOR (CLIENTE ORIENTADO)",
-        "9 - LOCAL IMPOSSÍVEL DE RECEBER SINAL"
-      ]
+	"7 - QUEDA DE CONEXÃO",
+        "8 - TROCA SENHA"
+      ]        
     }
+
   ]
 }
